@@ -1,0 +1,14 @@
+
+J
+java:S3740"/Provide the parametrized type for this generic.(îüÔÇıÿÿÿÿ
+J
+java:S3740&"/Provide the parametrized type for this generic.(¿í’æÿÿÿÿÿ
+B
+java:S1905$"'Remove this unnecessary cast to "List".(ÉíÁÿşÿÿÿÿ
+W
+java:S1128"5Remove this unused import 'com.sanvui.dto.SalaryDTO'.(«¨Ûÿÿÿÿÿ8´¢‡‚Ñ/
+S
+java:S1128"6Remove this unused import 'org.hibernate.Transaction'.(ìÌè³8´¢‡‚Ñ/
+Y
+java:S1128	"<Remove this unused import 'org.hibernate.query.NativeQuery'.(§Ì8µ¢‡‚Ñ/
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ÊƒÓÇıÿÿÿÿ

@@ -1,0 +1,15 @@
+
+U
+java:S1118":Add a private constructor to hide the implicit public one.(•½ÒÛıÿÿÿÿ
+I
+java:S1481"".Remove this unused "countCell" local variable.(ïÎ—Äüÿÿÿÿ
+@
+java:S1481#"*Remove this unused "count" local variable.(æÕ¿¼
+N	java:S106>"9Replace this use of System.out or System.err by a logger.(Óã«Æ
+E
+java:S2093"*Change this "try" to a try-with-resources.(¡»¢üùÿÿÿÿ
+N	java:S106a"9Replace this use of System.out or System.err by a logger.(“õÂÅ
+\
+java:S2095M"FUse try-with-resources or close this "Workbook" in a "finally" clause.(šÇö
+`
+java:S2095"JUse try-with-resources or close this "XSSFWorkbook" in a "finally" clause.(ü¾êé

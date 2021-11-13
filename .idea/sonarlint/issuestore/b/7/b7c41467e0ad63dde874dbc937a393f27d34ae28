@@ -1,0 +1,10 @@
+
+l	java:S116J"WRename this field "interview_Id" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ä¡ì
+@
+java:S5869."*Remove duplicates in this character class.(¼¨¹Õ
+@
+java:S5869."*Remove duplicates in this character class.(¼¨¹Õ
+b
+java:S5998."LRefactor this repetition that can lead to a stack overflow for large inputs.(¼¨¹Õ
+>
+java:S5854:"(Use the CANON_EQ flag with this pattern.(Á€¼¡

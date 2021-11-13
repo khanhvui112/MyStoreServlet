@@ -1,0 +1,29 @@
+
+Q	java:S125#"<This block of commented-out lines of code should be removed.(½¸â°
+`
+java:S32524"JUse static access with "org.hibernate.cfg.AvailableSettings" for "DRIVER".(ŒÒÑ”
+b
+java:S32525"GUse static access with "org.hibernate.cfg.AvailableSettings" for "URL".(èÊ°Æýÿÿÿÿ
+^
+java:S32526"HUse static access with "org.hibernate.cfg.AvailableSettings" for "USER".(°Ùàæ
+j
+java:S32527"HUse static access with "org.hibernate.cfg.AvailableSettings" for "PASS".(Õýî¸øÿÿÿÿ8è›ê×Ð/
+x
+java:S3252;"]Use static access with "org.hibernate.cfg.AvailableSettings" for "ENABLE_LAZY_LOAD_NO_TRANS".(–’®Ùøÿÿÿÿ
+k
+java:S3252<"PUse static access with "org.hibernate.cfg.AvailableSettings" for "HBM2DDL_AUTO".(œ÷™ÿúÿÿÿÿ
+a
+java:S3252="KUse static access with "org.hibernate.cfg.AvailableSettings" for "DIALECT".(Á—­
+n
+java:S3252>"LUse static access with "org.hibernate.cfg.AvailableSettings" for "SHOW_SQL".(Õ£¢•øÿÿÿÿ8è›ê×Ð/
+{
+java:S3252A"fUse static access with "org.hibernate.cfg.AvailableSettings" for "USE_DIRECT_REFERENCE_CACHE_ENTRIES".(–â€B
+u
+java:S3252B"XUse static access with "org.hibernate.cfg.AvailableSettings" for "CACHE_REGION_FACTORY".(¯‹§ý8ð›ê×Ð/
+z
+java:S3252E"XUse static access with "org.hibernate.cfg.AvailableSettings" for "STATEMENT_BATCH_SIZE".(ƒ™óÁûÿÿÿÿ8ò›ê×Ð/
+M
+java:S2093Œ"*Change this "try" to a try-with-resources.(¡»¢üùÿÿÿÿ8‡œê×Ð/
+[	java:S106¿"9Replace this use of System.out or System.err by a logger.(¬²áÊùÿÿÿÿ8ÒÉ¼ÙÐ/
+M
+java:S2093´"*Change this "try" to a try-with-resources.(¡»¢üùÿÿÿÿ8‘œê×Ð/

@@ -1,0 +1,16 @@
+
+e
+java:S1128"CRemove this unused import 'org.hibernate.search.annotations.Field'.(˜òà©şÿÿÿÿ8‹¬ÿĞ/
+e
+java:S1128"HRemove this unused import 'org.hibernate.search.annotations.TermVector'.(óµØú8‹¬ÿĞ/
+Q
+java:S1128"5Remove this unused import 'javax.persistence.Column'.(ìûæH8‹¬ÿĞ/
+a
+java:S1128"?Remove this unused import 'javax.validation.constraints.Email'.(¸àô¹üÿÿÿÿ8‹¬ÿĞ/
+c
+java:S1128	"ARemove this unused import 'javax.validation.constraints.NotNull'.(áç¥ãüÿÿÿÿ8‹¬ÿĞ/
+c
+java:S1128
+"ARemove this unused import 'javax.validation.constraints.Pattern'.(¶ò†€øÿÿÿÿ8‹¬ÿĞ/
+[
+java:S1128">Remove this unused import 'javax.validation.constraints.Size'.(›«´İ8‹¬ÿĞ/

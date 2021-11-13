@@ -1,0 +1,11 @@
+
+P
+java:S1118":Add a private constructor to hide the implicit public one.(çÛ”ç
+S	java:S1068"9Replace this use of System.out or System.err by a logger.(ÇĞÄ½ÿÿÿÿÿ
+E
+java:S2093"*Change this "try" to a try-with-resources.(¡»¢üùÿÿÿÿ
+N	java:S106["9Replace this use of System.out or System.err by a logger.(„ã¹È
+c
+java:S2095G"FUse try-with-resources or close this "Workbook" in a "finally" clause.(šÇö8ìèì×Ğ/
+g
+java:S2095 "JUse try-with-resources or close this "XSSFWorkbook" in a "finally" clause.(ü¾êé8€éì×Ğ/
