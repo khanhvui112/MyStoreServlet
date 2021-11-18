@@ -1,6 +1,6 @@
 package com.sanvui.sercurity;
 
-import com.sanvui.dto.LoginDTO;
+import com.sanvui.model.dto.LoginDTO;
 
 import javax.servlet.*;
 import javax.servlet.http.HttpServletRequest;
@@ -34,11 +34,15 @@ public class LogFilter implements Filter {
         HttpSession session = req.getSession();
         LoginDTO loginDTO=(LoginDTO) session.getAttribute("loginDTO");
         // Cho phép request được đi tiếp. (Vượt qua Filter này).
-        if (loginDTO != null && loginDTO.getRole().equals("ADMIN")){
+        if (loginDTO != null && loginDTO.getRole().equals("ADMIN")
+                || loginDTO != null && loginDTO.getRole().equals("MANAGER")){
             chain.doFilter(request, response);
         } else {
             resp.sendRedirect("/Home/login");
         }
+
+
+
 
     }
 

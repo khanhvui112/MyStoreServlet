@@ -1,6 +1,6 @@
 package com.sanvui.utils;
 
-import com.sanvui.entities.Employee;
+import com.sanvui.model.entities.Employee;
 import org.apache.poi.ss.usermodel.Row;
 import org.apache.poi.ss.usermodel.Sheet;
 import org.apache.poi.ss.usermodel.Workbook;

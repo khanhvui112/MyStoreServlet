@@ -1,21 +1,16 @@
 package com.sanvui.controller;
 
 import com.google.gson.Gson;
-import com.google.gson.JsonObject;
-import com.google.gson.JsonParser;
-import com.sanvui.dto.MessageValidator;
-import com.sanvui.entities.Employee;
+import com.sanvui.model.dto.MessageValidator;
+import com.sanvui.model.entities.Employee;
 import com.sanvui.services.EmployeeServices;
-import com.sanvui.utils.GetMessageUtils;
 import org.apache.commons.codec.binary.StringUtils;
 
 import javax.servlet.RequestDispatcher;
-import javax.servlet.ServletContext;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.*;
 import java.io.*;
-import java.nio.ByteBuffer;
 import java.nio.charset.Charset;
 import java.nio.charset.StandardCharsets;
 import java.time.LocalDate;
@@ -30,6 +25,7 @@ import java.util.Properties;
 
 @WebServlet("/signup")
 public class RegistrationController extends HttpServlet {
+    private static final long serialVersionUID =4L;
 
     private static final Charset UTF_8 = StandardCharsets.UTF_8;
 

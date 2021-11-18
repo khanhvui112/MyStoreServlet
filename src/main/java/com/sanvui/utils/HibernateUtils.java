@@ -1,7 +1,7 @@
 package com.sanvui.utils;
 
-import com.sanvui.dto.SalaryDTO;
-import com.sanvui.entities.*;
+import com.sanvui.model.dto.SalaryDTO;
+import com.sanvui.model.entities.*;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.boot.registry.StandardServiceRegistryBuilder;
@@ -84,6 +84,8 @@ public class HibernateUtils {
         configuration.addAnnotatedClass(Discount.class);
         configuration.addAnnotatedClass(Employee.class);
         configuration.addAnnotatedClass(Entrytest.class);
+        configuration.addAnnotatedClass(Footer.class);
+        configuration.addAnnotatedClass(FooterDetail.class);
         configuration.addAnnotatedClass(Images.class);
         configuration.addAnnotatedClass(Interview.class);
         configuration.addAnnotatedClass(JobDescription.class);

@@ -1,6 +1,6 @@
 package com.sanvui.services;
 
-import com.sanvui.entities.Salary;
+import com.sanvui.model.entities.Salary;
 
 import java.util.List;
 

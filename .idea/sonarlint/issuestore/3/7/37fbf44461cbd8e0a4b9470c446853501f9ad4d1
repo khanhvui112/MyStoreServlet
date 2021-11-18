@@ -23,7 +23,7 @@ java:S3252B"XUse static access with "org.hibernate.cfg.AvailableSettings" for "
 z
 java:S3252E"XUse static access with "org.hibernate.cfg.AvailableSettings" for "STATEMENT_BATCH_SIZE".(ƒ™óÁûÿÿÿÿ8ò›ê×Ð/
 M
-java:S2093Œ"*Change this "try" to a try-with-resources.(¡»¢üùÿÿÿÿ8‡œê×Ð/
-[	java:S106¿"9Replace this use of System.out or System.err by a logger.(¬²áÊùÿÿÿÿ8ÒÉ¼ÙÐ/
+java:S2093Ž"*Change this "try" to a try-with-resources.(¡»¢üùÿÿÿÿ8‡œê×Ð/
+[	java:S106Á"9Replace this use of System.out or System.err by a logger.(¬²áÊùÿÿÿÿ8ÒÉ¼ÙÐ/
 M
-java:S2093´"*Change this "try" to a try-with-resources.(¡»¢üùÿÿÿÿ8‘œê×Ð/
+java:S2093¶"*Change this "try" to a try-with-resources.(¡»¢üùÿÿÿÿ8‘œê×Ð/

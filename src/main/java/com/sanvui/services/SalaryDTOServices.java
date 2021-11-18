@@ -1,7 +1,7 @@
 package com.sanvui.services;
 
-import com.sanvui.dao.Imp.EmployeeDaoImp;
-import com.sanvui.dto.SalaryDTO;
+import com.sanvui.model.dao.Imp.EmployeeDaoImp;
+import com.sanvui.model.dto.SalaryDTO;
 
 import java.time.temporal.ChronoUnit;
 import java.util.List;

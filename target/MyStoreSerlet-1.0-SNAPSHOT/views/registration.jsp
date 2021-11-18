@@ -22,8 +22,8 @@
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     </head>
     <body>
+        <jsp:include page="./_header.jsp"></jsp:include>
         <div class="main">
-
             <section class="signup">
                 <!-- <img src="images/signup-bg.jpg" alt=""> -->
                 <div class="container">
@@ -36,7 +36,6 @@
 
                                 <label class="d-block text-center" id="spanStatus" style="color: red;" for="basic-url"></label>
                                 <br>
-
                                 <div class="form-row">
                                     <div class="form-group col-md-6">
                                         <label for="basic-url">Họ và tên đệm</label>
@@ -52,14 +51,14 @@
                                     <span id="spanUserName" style = "color:red;"></span>
                                 </label>
                             <div class="form-group">
-                                <input type="text" class="form-input" name="username" id="username" placeholder="User Name"/>
+                                <input type="text" class="form-input" name="usernameRegis" id="usernameRegis" placeholder="User Name"/>
                             </div>
 
                                 <label  for="basic-url">Số điện thoại <span style = "color:red;">(&ast;)</span>
                                     <span id="spanPhone" style = "color:red;">  </span>
                                 </label>
                             <div class="form-group">
-                                <input type="text" class="form-input" name="phone" id="phone" placeholder="Phone number"/>
+                                <input type="text" class="form-input" name="phoneRegis" id="phoneRegis" placeholder="Phone number"/>
                             </div>
 
                                 <label  for="basic-url">Ngày sinh <span style = "color:red;">(&ast;)</span>
@@ -83,7 +82,7 @@
                                     <span id="spanEmail" style = "color:red;"></span>
                                 </label>
                             <div class="form-group">
-                                <input type="email" class="form-input" name="email" id="email" placeholder="Your Email"/>
+                                <input type="email" class="form-input" name="emailRegis" id="emailRegis" placeholder="Your Email"/>
                             </div>
 
                                 <label  for="basic-url">Địa chỉ </label>
@@ -117,8 +116,8 @@
                     </div>
                 </div>
             </section>
-
         </div>
+        <jsp:include page="./_footer.jsp"></jsp:include>
 
         <!-- JS -->
         <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>

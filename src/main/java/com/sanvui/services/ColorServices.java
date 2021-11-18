@@ -1,6 +1,6 @@
 package com.sanvui.services;
 
-import com.sanvui.entities.Color;
+import com.sanvui.model.entities.Color;
 
 import java.util.List;
 

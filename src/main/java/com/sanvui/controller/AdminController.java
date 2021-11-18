@@ -1,6 +1,6 @@
 package com.sanvui.controller;
 
-import com.sanvui.dto.LoginDTO;
+import com.sanvui.model.dto.LoginDTO;
 
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
@@ -25,7 +25,8 @@ public class AdminController extends HttpServlet {
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         HttpSession session = req.getSession();
         LoginDTO loginDTO=(LoginDTO) session.getAttribute("loginDTO");
-        if(loginDTO != null && loginDTO.getRole().equalsIgnoreCase("ADMIN")){
+        if(loginDTO != null && loginDTO.getRole().equalsIgnoreCase("ADMIN")
+                || loginDTO != null && loginDTO.getRole().equalsIgnoreCase("MANAGER" )){
             RequestDispatcher  requestDispatcher = req.getRequestDispatcher("/views/admin/dashboard.jsp");
             requestDispatcher.forward(req, resp);
         }else{

@@ -7,14 +7,25 @@
 	<display-name>ServletFilterTutorial</display-name>
 	
 	<filter>
+		<filter-name>logFilterAdmin</filter-name>
+		<filter-class>com.sanvui.sercurity.LogFilterAdmin</filter-class>
+	</filter>
+	<filter-mapping>
+		<filter-name>logFilterAdmin</filter-name>
+		<url-pattern>/admin-dashboard/admin/*</url-pattern>
+	</filter-mapping>
+	
+	<filter>
 		<filter-name>logFilter</filter-name>
 		<filter-class>com.sanvui.sercurity.LogFilter</filter-class>
 	</filter>
 	
 	<filter-mapping>
 		<filter-name>logFilter</filter-name>
-		<url-pattern>/admin-dashboard</url-pattern>
+		<url-pattern>/admin-dashboard/*</url-pattern>
 	</filter-mapping>
+	
+	
 	
 	<jsp-config>
 		<jsp-property-group>

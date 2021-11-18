@@ -26,9 +26,9 @@ $(document).ready(function() {
         }
         let fname = $("#fname").val();
         let lname = $("#lname").val();
-        let username = $("#username").val();
-        let phone = $("#phone").val();
-        let email = $("#email").val();
+        let username = $("#usernameRegis").val();
+        let phone = $("#phoneRegis").val();
+        let email = $("#emailRegis").val();
         let address = $("#address").val();
         let password = $("#password").val();
         let repassword = document.getElementById("repassword").value;
@@ -40,13 +40,11 @@ $(document).ready(function() {
         let check3 = validateEmail(email);
         let check4 = validatePassword(password, repassword);
         let check5 = validateDate(dateOfBirth);
-        alert("check1 "+check1 +" check2 "+check2+" check3 "+check3 +" check4 "+ check4 +" check5 "+check5)
         if(check1 === true
             && check2 ===true
             && check3 === true
             && check4 === true
             && check5 === true){
-            alert("Call ajax")
             $.ajax({
                 url:url,
                 type:'post',

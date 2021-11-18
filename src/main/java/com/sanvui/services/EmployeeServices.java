@@ -1,10 +1,8 @@
 package com.sanvui.services;
 
-import com.sanvui.dao.Imp.EmployeeDaoImp;
-import com.sanvui.dto.MessageValidator;
-import com.sanvui.entities.Employee;
-import com.sanvui.utils.ValidatorBean;
-import com.sanvui.utils.ValidatorUtils;
+import com.sanvui.model.dao.Imp.EmployeeDaoImp;
+import com.sanvui.model.dto.MessageValidator;
+import com.sanvui.model.entities.Employee;
 
 import javax.validation.ConstraintViolation;
 import javax.validation.Validation;

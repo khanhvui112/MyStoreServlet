@@ -1,2 +1,5 @@
-com\sanvui\dao\Imp\EmployeeDaoImpTest.class
-com\sanvui\dao\Imp\LoginDTODaoDaoImpTest.class
+com\sanvui\services\FooterServiceTest.class
+com\sanvui\model\dao\Imp\EmployeeDaoImpTest.class
+com\sanvui\services\FooterDetailServicesTest.class
+com\sanvui\model\dao\Imp\BaseDaoImpTest.class
+com\sanvui\model\dao\Imp\LoginDTODaoDaoImpTest.class

@@ -1,8 +1,8 @@
 package com.sanvui.dto;
 
-import com.sanvui.dao.Imp.EmployeeDaoImp;
-import com.sanvui.entities.Department;
-import com.sanvui.entities.Employee;
+import com.sanvui.model.dao.Imp.EmployeeDaoImp;
+import com.sanvui.model.entities.Department;
+import com.sanvui.model.entities.Employee;
 import org.apache.poi.openxml4j.exceptions.InvalidFormatException;
 
 import java.io.IOException;

@@ -12,6 +12,7 @@
         <title>My Store</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
         <!--===============================================================================================-->
         <link rel="icon" type="image/png" href="${pageContext.request.contextPath}/views/assets/images/icons/favicon.ico"/>
         <!--===============================================================================================-->
@@ -35,6 +36,7 @@
         <!--===============================================================================================-->
     </head>
     <body>
+        <jsp:include page="./_header.jsp"></jsp:include>
         <div class="limiter">
             <div class="container-login100">
                 <div class="wrap-login100 p-l-55 p-r-55 p-t-65 p-b-54">
@@ -43,16 +45,16 @@
 						Đăng nhập
 					</span>
 
-                        <p style="color: red;">${error}</p>
+                        <p class="showError" style="color: red;">${error}</p>
                         <div class="wrap-input100 validate-input m-b-23" data-validate = "Username is reauired">
-                            <span class="label-input100">Tên tài khoản</span>
-                            <input class="input100" type="text" name="username" placeholder="Type your username">
+                            <span class="label-input100">Tên tài khoản<span style="color:red;" class="spanUsername"></span></span>
+                            <input class="input100 username" id="username" type="text" name="username" placeholder="Type your username">
                             <span class="focus-input100" data-symbol="&#xf206;"></span>
                         </div>
 
                         <div class="wrap-input100 validate-input" data-validate="Password is required">
                             <span class="label-input100">Mật khẩu</span>
-                            <input class="input100" type="password" name="password" placeholder="Type your password">
+                            <input class="input100 password" id="password" type="password" name="password" placeholder="Type your password">
                             <span class="focus-input100" data-symbol="&#xf190;"></span>
                         </div>
 
@@ -102,8 +104,7 @@
             </div>
         </div>
 
-
-        <div id="dropDownSelect1"></div>
+        <jsp:include page="./_footer.jsp"></jsp:include>
 
         <!--===============================================================================================-->
         <script src="${pageContext.request.contextPath}/views/assets/vendor/jquery/jquery-3.2.1.min.js"></script>
@@ -121,5 +122,6 @@
         <script src="${pageContext.request.contextPath}/views/assets/vendor/countdowntime/countdowntime.js"></script>
         <!--===============================================================================================-->
         <script src="${pageContext.request.contextPath}/views/assets/js/main.js"></script>
+        <script src="${pageContext.request.contextPath}/views/assets/js/login.js"></script>
     </body>
 </html>
